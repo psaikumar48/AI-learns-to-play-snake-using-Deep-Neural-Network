@@ -1,6 +1,6 @@
 Librarys required : Tensorflow,Pygame,Numpy and Random
 
-ABOUT THE GAME : A game was developed with a window size of 40 by 30 grids. It will have a snake with 4 grids as body and a random grid is for the food.At each crash of snake,new snake will start at at top left side of the window and score will diplayed in the output.
+ABOUT THE GAME : A game was developed with a window size of 40 by 30 grids. It will have a snake with 4 grids as body and a random grid for the food.At each crash of snake,new snake will start at at top left side of the window and score will displayed in the output.
 
 ABOUT THE INPUT NEURONS: Input of Neuron network will have an array of 8 numbers:
 1>>Is there an obstacle in the right grid of the snake head (1 — yes, 0 — no)
@@ -18,7 +18,7 @@ index:1 Left move
 index:2 Top move 
 index:3 Bottom move 
 
-TRAINING THE NEURAL NETWORK : Initial 4 training sets are trained and after the every crash of game the new traing data will be trained to neurol network.
+TRAINING THE NEURAL NETWORK : Initial 4 training sets are trained and after the every crash of snake the new traing data will be trained to neurol network.
 LABELING TO THE TRAINING DATA  : 0,1,2 and 3 is labeled based on 8 input values.First preference is given to the grid having no obstacles around snake head and second preference was given to the grid having less distance to food from snake head.
 
 Ex1:Data=[0,0,0,1,_,_,_,_] Label=3 (Hear we don't see the distance to food,we will save the snake by moving it to no obstacles side)
