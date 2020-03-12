@@ -1,6 +1,6 @@
 Librarys required : Tensorflow,Pygame,Numpy and Random
 
-ABOUT THE GAME : A game was developed with a window size of 40 by 30 grids. It will have a snake with 4 grids as body and a random grid for the food.At each crash of snake,new snake will start at at top left side of the window and score will displayed in the output.
+ABOUT THE GAME : A game was developed with a window size of 40 by 30 grids. It will have a snake with 4 grids as body and a random grid for the food.At each crash of snake,new snake will be generated at the top left of the window and score will displayed in the output.
 
 ABOUT THE INPUT NEURONS: Input of Neuron network will have an array of 8 numbers:
 1>>Is there an obstacle in the right grid of the snake head (1 — yes, 0 — no)
