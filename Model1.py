@@ -42,7 +42,7 @@ def update_snake():
     display()
 def prediction():
     global action
-    x,y=Snake[0][0],Snake[0][1]
+    (x,y)=Snake[0]
     r=(x+1,y)
     l=(x-1,y)
     t=(x,y-1)
