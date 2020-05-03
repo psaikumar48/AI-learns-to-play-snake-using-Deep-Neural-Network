@@ -27,7 +27,7 @@ def display():
     pygame.display.update()
 def update_snake():
     global snake_tail,snake_head,snake_body,right_label
-    x,y=Snake[0][0],Snake[0][1]
+    (x,y)=Snake[0]
     if action == 'Right' :
         Snake.insert(0,(x+1,y))
     elif action == 'Left' :
@@ -88,7 +88,8 @@ while mloop:
                     loop=False
                 elif event.key == pygame.K_DOWN:
                     snake_wait_time+=25
+                    print(snake_wait_time)
                 elif event.key == pygame.K_UP:
                     if snake_wait_time>=25:
                         snake_wait_time-=25
-                print(snake_wait_time)
+                        print(snake_wait_time)
